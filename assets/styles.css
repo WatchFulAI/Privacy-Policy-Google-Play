@@ -4,18 +4,18 @@ body {
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 16px;
     line-height: 28px;
-    margin-left: 70px;
-    margin-right: 150pt;
+    /* margin-left: 70px;
+    margin-right: 150pt; */
     /* padding: 60px; */
 }
 
-footer {
+/* footer {
     background-color: #323235;
     color: white;
     text-align: center;
     padding: 10px;
     height: 20pt;
-}
+} */
 
 p {
     justify-content:left;
@@ -145,8 +145,81 @@ a[rel~=nofollow]:hover {
     border-top: 1px solid #eee
 }
 
-.footer {
+/* .footer {
     border-top: 1px solid #eee;
     margin: 32px 0 0;
     padding: 16px 0
+} */
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li:last-child {
+    margin-right: 0;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
 }
